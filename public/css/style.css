@@ -1,0 +1,35 @@
+:root {
+  /* Paleta de cores */
+  --bs-body-bg: #131313; /* Background do body */
+  --bs-body-color: #ffffff; /* Cor do texto */
+  --bs-primary: #272727;
+  --bs-secondary: #3a3a3a;
+  --bs-tertiary: #4d4d4d;
+
+  /* Personalizando links */
+  --bs-link-color: #4d4d4d;
+  --bs-link-hover-color: #ffffff;
+}
+
+body {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: var(--bs-body-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--bs-secondary);
+  border-color: var(--bs-secondary);
+}
+
+.custom-card {
+  background-color: var(--bs-secondary);
+  color: var(--bs-body-color);
+}
+
+@import url('main.css');

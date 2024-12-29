@@ -1,0 +1,27 @@
+/* Fundo e cores personalizadas */
+.header {
+  background-color: #272727; /* Fundo do cabeçalho */
+  border-radius: 8px; /* Bordas arredondadas */
+}
+
+/* Ajuste do menu */
+.nav-link {
+  color: #ffffff; /* Texto claro */
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #4d4d4d; /* Cor ao passar o mouse */
+}
+
+/* Responsividade do cabeçalho */
+@media (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+
+  .nav {
+    flex-direction: column; /* Coloca os links em coluna */
+    gap: 0.5rem;
+  }
+}
