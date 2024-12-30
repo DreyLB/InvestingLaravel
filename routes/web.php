@@ -5,6 +5,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/carteira', function () {
+    return view('carteira.view');
+});
+
+
 
 Route::middleware([
     'auth:sanctum',

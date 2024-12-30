@@ -25,8 +25,8 @@
             <h1 class="h3 mb-0">Investing</h1>
             <nav>
               <ul class="nav">
-                <li class="nav-item"><a class="nav-link " href="#">DashBoard</a></li>
-                <li class="nav-item"><a class="nav-link " href="#">Controle</a></li>
+                <li class="nav-item"><a class="nav-link " href="/">DashBoard</a></li>
+                <li class="nav-item"><a class="nav-link " href="/carteira">Carteira</a></li>
                 <li class="nav-item"><a class="nav-link " href="#">Dividendos</a></li>
                 <li class="nav-item"><a class="nav-link " href="#">Compra/Venda</a></li>
               </ul>

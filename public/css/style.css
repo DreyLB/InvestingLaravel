@@ -1,3 +1,4 @@
+
 :root {
   /* Paleta de cores */
   --bs-body-bg: #131313; /* Background do body */
@@ -9,7 +10,42 @@
   /* Personalizando links */
   --bs-link-color: #ffffff;
   --bs-link-hover-color: #4d4d4d;
+
+  /* Tabela */
+  --bs-table-bg: #272727; /* Cor de fundo das tabelas */
+  --bs-table-text: #ffffff; /* Cor do texto nas tabelas */
+  --bs-table-border-color: #3a3a3a; /* Cor das bordas da tabela */
+ /*  --bs-emphasis-color: #ffffff; */
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--bs-table-text);
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: var(--bs-primary);
+}
+
+
+tbody tr:hover {
+  background-color: var(--bs-tertiary);
+}
+
+a {
+  color: var(--bs-link-color);
+}
+
+a:hover {
+  color: var(--bs-link-hover-color);
+}
+
 
 body {
   background-color: var(--bs-body-bg);
@@ -32,5 +68,19 @@ body {
   color: var(--bs-body-color);
 }
 
-@import url('main.css');
-@import url('welcome.css');
+.table {
+  --bs-table-bg: none;
+}
+
+.bg-table-acoes {
+  background-color: #a8d08d;;
+}
+
+.bg-table-fiis {
+  background-color: #bf9000;;
+}
+
+.bg-table-stocks {
+  background-color: #2e75b5;;
+}
+
