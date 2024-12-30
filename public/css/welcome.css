@@ -1,0 +1,19 @@
+.table-welcome {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+/* Cabeçalhos da tabela */
+.table thead tr {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Texto personalizado */
+.fs-4 {
+  font-size: 1.5rem; /* Tamanho maior para os valores */
+}
+
+.th {
+  color: #ffc107; /* Amarelo Bootstrap */
+}

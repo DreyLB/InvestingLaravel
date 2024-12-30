@@ -20,23 +20,23 @@
     </head>
     <body >
       <body>
-        <header class="py-3 header bg-dark text-white">
+        <header class="py-3 header bg-dark">
           <div class="container d-flex justify-content-between align-items-center">
             <h1 class="h3 mb-0">Investing</h1>
             <nav>
               <ul class="nav">
-                <li class="nav-item"><a class="nav-link text-white" href="#">DashBoard</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="#">Controle</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="#">Dividendos</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="#">Compra/Venda</a></li>
+                <li class="nav-item"><a class="nav-link " href="#">DashBoard</a></li>
+                <li class="nav-item"><a class="nav-link " href="#">Controle</a></li>
+                <li class="nav-item"><a class="nav-link " href="#">Dividendos</a></li>
+                <li class="nav-item"><a class="nav-link " href="#">Compra/Venda</a></li>
               </ul>
             </nav>
           </div>
         </header>
         
       
-        <main class=" mt-4">
-          
+        <main class="container mt-4">
+          @yield('content')
         </main>
       
         <footer class="text-center py-3 mt-4">

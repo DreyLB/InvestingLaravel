@@ -7,8 +7,8 @@
   --bs-tertiary: #4d4d4d;
 
   /* Personalizando links */
-  --bs-link-color: #4d4d4d;
-  --bs-link-hover-color: #ffffff;
+  --bs-link-color: #ffffff;
+  --bs-link-hover-color: #4d4d4d;
 }
 
 body {
@@ -33,3 +33,4 @@ body {
 }
 
 @import url('main.css');
+@import url('welcome.css');
