@@ -2,7 +2,6 @@
 :root {
   /* Paleta de cores */
   --bs-body-bg: #131313; /* Background do body */
-  --bs-body-color: #ffffff; /* Cor do texto */
   --bs-primary: #272727;
   --bs-secondary: #3a3a3a;
   --bs-tertiary: #4d4d4d;
@@ -33,11 +32,6 @@ th {
   background-color: var(--bs-primary);
 }
 
-
-tbody tr:hover {
-  background-color: var(--bs-tertiary);
-}
-
 a {
   color: var(--bs-link-color);
 }
@@ -53,7 +47,7 @@ body {
 }
 
 .btn-primary {
-  background-color: var(--bs-primary);
+  background-color: #65B307;
   border-color: var(--bs-primary);
   color: var(--bs-body-color);
 }
@@ -84,3 +78,70 @@ body {
   background-color: #2e75b5;;
 }
 
+.table-dark-gray {
+  background-color: #3a3a3a;
+  color: #ffffff;
+}
+.table-dark-gray th, .table-dark-gray td {
+  border-color: #4d4d4d;
+}
+.highlight-total {
+  font-weight: bold;
+}
+
+.transation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.table-transation {
+  color: #000;
+}
+
+.transation-element {
+  margin-bottom: 40px;
+}
+
+.transation-element table {
+  width: 300px;
+}
+
+.table-transation tbody {
+  background-color: #ffffff;
+}
+
+.table-header {
+  background-color: #008000;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+.table-subheader {
+  background-color: #ffcc00;
+  font-weight: bold;
+}
+.highlight-green {
+  background-color: #00ff00;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
+
+.compra-venda {
+  display: grid;
+  text-decoration: none;
+  padding: 16px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  justify-self: center;
+}
+
+.teste {
+  background-color: blue;
+  width: 300px;
+  height: 500px;
+}

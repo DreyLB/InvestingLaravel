@@ -5,7 +5,7 @@
 @section('content')
 
 <section>
-  <div class="container my-5">
+  <div class="container text-white my-5">
     <!-- Tabela Ações -->
     <h3>Ações</h3>
     <table class="table table-striped table-custom bg-table-acoes">
